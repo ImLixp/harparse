@@ -11,6 +11,8 @@ def jsonDump(obj):
     return json.dumps(obj, separators=(',',':'))
 
 def jsonLoad(jstr):
+    if type(jstr) == bytes:
+        jstr = jstr.decode('utf8')
     return json.loads(jstr)
 
 def gzdecode(data) :
@@ -32,11 +34,11 @@ def HttpsReq(host, method, url, body=None, header={}):
             header['Cookie']=cookie
         if compress == "gzip":
             de = gzdecode(res.read())
-            return json.loads(de, encoding="UTF-8")
+            return jsonLoad(de)
         else:
             a = res.read()
             print(a)
-            return json.loads(res.read(),encoding="UTF-8")
+            return jsonLoad(res)
 
 class HARRequest(object):
     def __init__(self, request):
