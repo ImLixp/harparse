@@ -1,0 +1,310 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "67.0.1"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "67.0.1"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2019-06-14T19:33:56.757+08:00",
+        "id": "page_1",
+        "pageTimings": {
+          "onContentLoad": -1,
+          "onLoad": -1
+        }
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2019-06-14T19:33:56.757+08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "POST",
+          "url": "https://www.ifukang.com/openapi/auth/v1/lightning_deals/Fgqn-tvK_GU3JrhaNNhfSA/token",
+          "httpVersion": "HTTP/2.0",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.ifukang.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:67.0) Gecko/20100101 Firefox/67.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-cn,zh;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Referer",
+              "value": "https://www.ifukang.com/fmex"
+            },
+            {
+              "name": "token",
+              "value": ""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "prd-token=EqHsyky7KBLCliJTafTMtWyTuJBMf7n9_EBP9Oc9OyLj; __zlcmid=sdiHoKeu2P2hSw; LOGIN_FRESH=1; LOGIN_USERNAME=lixpxil"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "prd-token",
+              "value": "EqHsyky7KBLCliJTafTMtWyTuJBMf7n9_EBP9Oc9OyLj"
+            },
+            {
+              "name": "__zlcmid",
+              "value": "sdiHoKeu2P2hSw"
+            },
+            {
+              "name": "LOGIN_FRESH",
+              "value": "1"
+            },
+            {
+              "name": "LOGIN_USERNAME",
+              "value": "lixpxil"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 499
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/2.0",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 14 Jun 2019 11:32:36 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 b854b2dbed0b7eb7e4e055e04c5ae48b.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "SIN2-C1"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "Gs3W38-C0mdqFAS7cbplV-_9PstWiR1tQyWN-7oJMg1J0cMm1DZ4Gw=="
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json; charset=UTF-8",
+            "size": 57,
+            "text": "{\"status\":\"ok\",\"data\":\"b3df3956c57a4c679edf7883db22003d\"}"
+          },
+          "redirectURL": "",
+          "headersSize": 342,
+          "bodySize": 424
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 1,
+          "connect": 270,
+          "ssl": 499,
+          "send": 0,
+          "wait": 510,
+          "receive": 0
+        },
+        "time": 1280,
+        "_securityState": "secure",
+        "serverIPAddress": "54.192.151.93",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2019-06-14T19:33:58.046+08:00",
+        "request": {
+          "bodySize": 115,
+          "method": "POST",
+          "url": "https://www.ifukang.com/openapi/auth/v1/lightning_deals/Fgqn-tvK_GU3JrhaNNhfSA/buy",
+          "httpVersion": "HTTP/2.0",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.ifukang.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:67.0) Gecko/20100101 Firefox/67.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-cn,zh;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Referer",
+              "value": "https://www.ifukang.com/fmex"
+            },
+            {
+              "name": "token",
+              "value": ""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "115"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "prd-token=EqHsyky7KBLCliJTafTMtWyTuJBMf7n9_EBP9Oc9OyLj; __zlcmid=sdiHoKeu2P2hSw; LOGIN_FRESH=1; LOGIN_USERNAME=lixpxil"
+            },
+            {
+              "name": "TE",
+              "value": "Trailers"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "prd-token",
+              "value": "EqHsyky7KBLCliJTafTMtWyTuJBMf7n9_EBP9Oc9OyLj"
+            },
+            {
+              "name": "__zlcmid",
+              "value": "sdiHoKeu2P2hSw"
+            },
+            {
+              "name": "LOGIN_FRESH",
+              "value": "1"
+            },
+            {
+              "name": "LOGIN_USERNAME",
+              "value": "lixpxil"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 545,
+          "postData": {
+            "mimeType": "application/json;charset=UTF-8",
+            "params": [],
+            "text": "{\"id\":\"Fgqn-tvK_GU3JrhaNNhfSA\",\"amount\":\"101\",\"payment_currency\":\"usdt\",\"token\":\"b3df3956c57a4c679edf7883db22003d\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/2.0",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "content-length",
+              "value": "122"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 14 Jun 2019 11:32:36 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 b854b2dbed0b7eb7e4e055e04c5ae48b.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "SIN2-C1"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "iBOEtX2xdvD2ruuRWQ6wxBTLJzn7_ZSxY0yFsEMX3QC1Q-503PQ7Jw=="
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json; charset=UTF-8",
+            "size": 104,
+            "text": "{\"status\":\"error\",\"err_code\":\"lightning_deal_finished\",\"err_msg\":\"秒杀活动已结束。\",\"data\":null}"
+          },
+          "redirectURL": "",
+          "headersSize": 363,
+          "bodySize": 485
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 1528,
+          "receive": 0
+        },
+        "time": 1528,
+        "_securityState": "secure",
+        "serverIPAddress": "54.192.151.93",
+        "connection": "443"
+      }
+    ]
+  }
+}
